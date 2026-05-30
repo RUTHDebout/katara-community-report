@@ -1,5 +1,9 @@
 # KATARA Community Report
 
+![CI](https://github.com/RUTHDebout/katara-community-report/actions/workflows/ci.yml/badge.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/status-early%20MVP-orange.svg)
+
 **Open-source civic and climate resilience infrastructure for vulnerable communities.**
 
 KATARA Community Report is an open-source project designed to help communities, municipalities, NGOs, and researchers collect, classify, and act on local climate-risk reports, especially flood-related incidents in low-resource environments.
@@ -34,6 +38,43 @@ KATARA Community Report aims to close that gap by enabling citizens and field ac
 - SMS/WhatsApp alert and reporting workflows.
 - AI-assisted report classification and summarization.
 
+## Project structure
+
+```text
+katara-community-report/
+├── backend/        # FastAPI backend workspace
+├── frontend/       # Next.js frontend workspace
+├── docs/           # Architecture, roadmap, and deployment docs
+├── .github/        # CI workflows
+├── CONTRIBUTING.md
+├── SECURITY.md
+└── LICENSE
+```
+
+## Quickstart
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### Backend
+
+```bash
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+Backend health check:
+
+```text
+GET /health
+```
+
 ## Target users
 
 - Local communities exposed to flooding.
@@ -45,7 +86,7 @@ KATARA Community Report aims to close that gap by enabling citizens and field ac
 
 ## Project status
 
-This repository is in early open-source structuring phase. The initial focus is documentation, architecture, contributor onboarding, and MVP design.
+This repository is in early MVP and open-source structuring phase. The current focus is documentation, architecture, contributor onboarding, frontend prototype, backend prototype, and deployment readiness.
 
 ## Roadmap
 
