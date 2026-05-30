@@ -1,0 +1,18 @@
+[
+  {
+    "id": "KATARA-001",
+    "location": "Lome, Togo",
+    "category": "flood",
+    "description": "Community report of localized flooding after heavy rainfall.",
+    "severity": "medium",
+    "status": "pending_review"
+  },
+  {
+    "id": "KATARA-002",
+    "location": "Maritime Region, Togo",
+    "category": "blocked_drainage",
+    "description": "Blocked drainage observed near a residential area.",
+    "severity": "low",
+    "status": "verified"
+  }
+]
