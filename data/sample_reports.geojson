@@ -1,0 +1,96 @@
+{
+  "type": "FeatureCollection",
+  "name": "katara_sample_reports",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "report_id": "KTR-0001",
+        "created_at": "2026-06-08T08:00:00Z",
+        "country": "Togo",
+        "region": "Maritime",
+        "city_or_prefecture": "Lome",
+        "location_name": "Agoe",
+        "event_type": "flood",
+        "severity": "high",
+        "description": "Water is blocking the road and entering nearby houses.",
+        "verified_status": "pending",
+        "source_channel": "web",
+        "language": "fr"
+      },
+      "geometry": { "type": "Point", "coordinates": [1.2255, 6.2047] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "report_id": "KTR-0002",
+        "created_at": "2026-06-08T08:15:00Z",
+        "country": "Togo",
+        "region": "Maritime",
+        "city_or_prefecture": "Lome",
+        "location_name": "Baguida",
+        "event_type": "heavy_rain",
+        "severity": "medium",
+        "description": "Heavy rainfall and early water accumulation near homes.",
+        "verified_status": "unverified",
+        "source_channel": "field_agent",
+        "language": "fr"
+      },
+      "geometry": { "type": "Point", "coordinates": [1.3151, 6.1656] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "report_id": "KTR-0003",
+        "created_at": "2026-06-08T08:30:00Z",
+        "country": "Togo",
+        "region": "Maritime",
+        "city_or_prefecture": "Zio",
+        "location_name": "Tsevie",
+        "event_type": "blocked_drain",
+        "severity": "medium",
+        "description": "Drainage channel is blocked and water is rising.",
+        "verified_status": "pending",
+        "source_channel": "sms",
+        "language": "ewe"
+      },
+      "geometry": { "type": "Point", "coordinates": [1.2133, 6.4261] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "report_id": "KTR-0004",
+        "created_at": "2026-06-08T09:00:00Z",
+        "country": "Togo",
+        "region": "Maritime",
+        "city_or_prefecture": "Lacs",
+        "location_name": "Aneho",
+        "event_type": "damaged_road",
+        "severity": "high",
+        "description": "Road section damaged after flooding; motorcycles cannot pass.",
+        "verified_status": "verified",
+        "source_channel": "whatsapp",
+        "language": "mina"
+      },
+      "geometry": { "type": "Point", "coordinates": [1.5919, 6.2270] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "report_id": "KTR-0005",
+        "created_at": "2026-06-08T09:20:00Z",
+        "country": "Togo",
+        "region": "Maritime",
+        "city_or_prefecture": "Golfe",
+        "location_name": "Adidogome",
+        "event_type": "health_risk",
+        "severity": "critical",
+        "description": "Stagnant water near households; risk of disease and urgent intervention needed.",
+        "verified_status": "pending",
+        "source_channel": "web",
+        "language": "fr"
+      },
+      "geometry": { "type": "Point", "coordinates": [1.1574, 6.1786] }
+    }
+  ]
+}
