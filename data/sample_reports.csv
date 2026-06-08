@@ -1,0 +1,6 @@
+report_id,created_at,reporter_name,anonymous,phone_number,country,region,city_or_prefecture,location_name,latitude,longitude,event_type,severity,description,photo_url,water_level_estimate_cm,people_affected_estimate,verified_status,verified_by,source_channel,language,export_allowed
+KTR-0001,2026-06-08T08:00:00Z,,true,,Togo,Maritime,Lome,Agoe,6.2047,1.2255,flood,high,Water is blocking the road and entering nearby houses.,,45,30,pending,,web,fr,true
+KTR-0002,2026-06-08T08:15:00Z,Field Agent,false,+22800000000,Togo,Maritime,Lome,Baguida,6.1656,1.3151,heavy_rain,medium,Heavy rainfall and early water accumulation near homes.,,25,12,unverified,,field_agent,fr,true
+KTR-0003,2026-06-08T08:30:00Z,,true,,Togo,Maritime,Zio,Tsevie,6.4261,1.2133,blocked_drain,medium,Drainage channel is blocked and water is rising.,,35,20,pending,,sms,ewe,true
+KTR-0004,2026-06-08T09:00:00Z,Community Champion,false,+22800000001,Togo,Maritime,Lacs,Aneho,6.2270,1.5919,damaged_road,high,Road section damaged after flooding; motorcycles cannot pass.,,40,50,verified,Municipal Officer,whatsapp,mina,true
+KTR-0005,2026-06-08T09:20:00Z,,true,,Togo,Maritime,Golfe,Adidogome,6.1786,1.1574,health_risk,critical,Stagnant water near households; risk of disease and urgent intervention needed.,,60,80,pending,,web,fr,true
