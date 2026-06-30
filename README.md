@@ -4,17 +4,23 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/status-early%20MVP-orange.svg)
 
-**Open-source civic and climate resilience infrastructure for vulnerable communities.**
+**Open-source civic-tech and climate-resilience infrastructure for flood-prone communities in West Africa.**
 
-KATARA Community Report is an open-source project designed to help communities, municipalities, NGOs, and researchers collect, classify, and act on local climate-risk reports, especially flood-related incidents in low-resource environments.
+KATARA Community Report helps communities, municipalities, NGOs, and researchers collect, classify, verify, and act on local climate-risk reports, especially flood-related incidents in low-resource environments.
 
-The project focuses on community reporting, geospatial monitoring, multilingual accessibility, offline-first workflows, and low-bandwidth communication channels such as SMS and WhatsApp.
+The project combines community reporting, geospatial monitoring, multilingual accessibility, offline-first workflows, and low-bandwidth communication channels such as SMS and WhatsApp.
 
 ## Why this project matters
 
-Flood-prone communities often lack fast, localized, and accessible reporting tools. Many early-warning systems depend on top-down data flows and do not sufficiently include ground-level observations from residents.
+Flood-prone communities often lack fast, localized, and accessible reporting tools. Many early-warning systems rely on top-down data flows and do not sufficiently include ground-level observations from residents.
 
-KATARA Community Report aims to close that gap by enabling citizens and field actors to submit structured reports that can support local preparedness, humanitarian response, and climate adaptation planning.
+KATARA Community Report aims to close that gap by enabling citizens and field actors to submit structured incident reports that support preparedness, humanitarian response, and local climate-adaptation planning.
+
+## Founder context
+
+This project is led by **Abla Ruth AGBOFOATI**, a founder based in Lomé, Togo, building AI, civic-tech, and climate-tech tools for Francophone Africa.
+
+KATARA is designed from a field-first perspective: basic phones, low bandwidth, local languages, municipal workflows, and practical use by community champions.
 
 ## Core objectives
 
@@ -23,20 +29,39 @@ KATARA Community Report aims to close that gap by enabling citizens and field ac
 - Provide multilingual and locally adaptable interfaces.
 - Help municipalities and NGOs visualize incidents on maps.
 - Support open geospatial and civic-tech experimentation in Africa.
-- Build reusable open-source components for climate resilience systems.
+- Build reusable open-source components for climate-resilience systems.
+
+## Target users
+
+- Residents in flood-prone communities
+- Community volunteers and local leaders
+- Municipal disaster-risk teams
+- NGOs and humanitarian organizations
+- Climate adaptation researchers
+- Civic-tech and open-source contributors
 
 ## Planned features
 
-- Community incident reporting form.
-- Photo-based evidence submission.
-- Incident category classification.
-- Geolocation and map visualization.
-- Offline-first data capture.
-- Multilingual interface support.
-- CSV and GeoJSON export.
-- Admin dashboard for verification and triage.
-- SMS/WhatsApp alert and reporting workflows.
-- AI-assisted report classification and summarization.
+- Community incident reporting form
+- Photo-based evidence submission
+- Incident category classification
+- Geolocation and map visualization
+- Offline-first data capture
+- Multilingual interface support
+- CSV and GeoJSON export
+- Admin dashboard for verification and triage
+- SMS/WhatsApp alert and reporting workflows
+- AI-assisted report classification and summarization
+
+## Technology direction
+
+- **Backend:** FastAPI, Python
+- **Frontend:** Next.js / React
+- **Geospatial:** PostGIS, GeoJSON, mapping workflows
+- **Data:** community reports, flood-risk layers, structured incident datasets
+- **Messaging:** SMS and WhatsApp workflows
+- **AI:** report classification, summarization, triage support
+- **Deployment direction:** cloud-ready, open-source, modular architecture
 
 ## Project structure
 
@@ -75,15 +100,6 @@ Backend health check:
 GET /health
 ```
 
-## Target users
-
-- Local communities exposed to flooding.
-- Municipal disaster-risk teams.
-- NGOs and humanitarian organizations.
-- Climate adaptation researchers.
-- Civic-tech developers.
-- Open-source contributors interested in geospatial tools and public-interest technology.
-
 ## Project status
 
 This repository is in early MVP and open-source structuring phase. The current focus is documentation, architecture, contributor onboarding, frontend prototype, backend prototype, and deployment readiness.
@@ -92,48 +108,57 @@ This repository is in early MVP and open-source structuring phase. The current f
 
 ### Phase 1 — Foundation
 
-- Public repository structure.
-- README and documentation.
-- Open-source license.
-- Contributor guidelines.
-- Initial issue backlog.
-- MVP architecture.
+- Public repository structure
+- README and documentation
+- Open-source license
+- Contributor guidelines
+- Initial issue backlog
+- MVP architecture
 
 ### Phase 2 — MVP
 
-- Community report form.
-- Incident database schema.
-- Basic admin dashboard.
-- Map visualization.
-- CSV/GeoJSON export.
+- Community report form
+- Incident database schema
+- Basic admin dashboard
+- Map visualization
+- CSV/GeoJSON export
 
 ### Phase 3 — Field readiness
 
-- Offline-first workflow.
-- Multilingual support.
-- SMS/WhatsApp reporting integration.
-- Verification workflow.
-- Community champion onboarding materials.
+- Offline-first workflow
+- Multilingual support
+- SMS/WhatsApp reporting integration
+- Verification workflow
+- Community champion onboarding materials
 
 ### Phase 4 — AI and automation
 
-- AI-assisted report classification.
-- Automated report summaries.
-- Maintenance automation.
-- Documentation assistant.
-- Issue triage support.
+- AI-assisted report classification
+- Automated report summaries
+- Maintenance automation
+- Documentation assistant
+- Issue triage support
+
+## Suggested use cases
+
+- Local flood incident reporting
+- Community-based disaster-risk mapping
+- NGO field monitoring
+- Municipal climate-risk dashboards
+- Research datasets for flood vulnerability and adaptation
+- Open-source climate-resilience experimentation in Africa
 
 ## OpenAI Codex for Open Source use case
 
 If selected, API credits would be used to support:
 
-- AI-assisted code maintenance.
-- Automated issue triage.
-- Documentation generation.
-- Multilingual accessibility.
-- Report classification experiments.
-- Contributor workflow automation.
-- Security and quality review support.
+- AI-assisted code maintenance
+- Automated issue triage
+- Documentation generation
+- Multilingual accessibility
+- Report classification experiments
+- Contributor workflow automation
+- Security and quality review support
 
 ## Contributing
 
@@ -147,5 +172,7 @@ This project is released under the MIT License. See `LICENSE` for details.
 
 ## Maintainer
 
-AGBOFOATI Abla Ruth  
+**AGBOFOATI Abla Ruth**  
 Founder and primary maintainer of KATARA Community Report.
+
+GitHub: [RUTHDebout](https://github.com/RUTHDebout)
